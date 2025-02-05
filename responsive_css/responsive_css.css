@@ -1,0 +1,201 @@
+/* responsive for 900px  */
+@media all and (max-width:900px) {
+    *{
+        box-sizing: border-box;
+    }
+    header{
+        padding-top: 60px;
+    }
+    .menu{
+        width: 80%;
+    }
+    .menu ul li{
+        margin-left: 20px;
+    }
+    .menu ul li a{
+        font-size: 16px;
+    }
+    .banner{
+        padding: 60px 0;
+    }
+    .blog{
+        padding: 60px 0;
+    }
+    .blog_image{
+        width: 45%;
+    }
+    .blog_image:nth-child(even){
+        margin-left: 75px;
+    }
+    .text h2{
+        padding: 20px 0;
+        font-size: 12px;
+    }
+    .text h1{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .text p{
+        padding: 24px 0;
+        font-size: 16px;
+    }
+    .signup_bg{
+        padding: 10px 0;
+    }
+    .signup h1{
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight:600 ;
+    }
+    .form{
+        width: 32%;
+        padding-top: 30px;
+        margin-bottom: 5%;
+        font-size: 12px;
+        
+    }
+    .icon{
+        width: 3%;
+        position: absolute;
+        bottom: 35%;
+        right:34%;
+    }
+    .icon img{
+        width: 100%;
+    }
+    .Load_more{
+        padding-bottom: 80px;
+        padding-top: 10px;
+
+    }
+    .text_Load a {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .footer_left ul li a {
+        font-size: 16px;
+    }
+    footer{
+        padding: 15px 0;
+    }
+    .footer_left{
+        width: 45%;
+        float: left;
+        margin-top: 12px;
+    }
+    .footer_right{
+        width: 50%;
+        margin-top: 12px;
+    }
+    .footer_right ul li{
+        float: left;
+        margin-left: 10px;
+    }
+    .footer_right ul li a{
+        font-size: 16px;
+    }
+    .footer_right ul li a img{
+        width: 100%;
+    }
+}
+/* Responsive 500px  */
+
+@media all and (max-width:500px) {
+    *{
+        box-sizing: border-box;
+    }
+    header{
+        padding-top: 30px;
+    }
+    .menu{
+        width: 80%;
+    }
+    .menu ul li{
+        margin-left: 10px;
+    }
+    .menu ul li a{
+        font-size: 8px;
+    }
+    .banner{
+        padding: 40px 0;
+    }
+    .blog{
+        padding: 60px 0;
+    }
+    .blog_image{
+        width: 40.5%;
+    }
+    .blog_image:nth-child(even){
+        margin-left: 65px;
+    }
+    .text h2{
+        padding: 14px 0;
+        font-size: 10px;
+    }
+    .text h1{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .text p{
+        padding: 19px 0;
+        font-size: 8px;
+    }
+    .signup_bg{
+        padding: 1px 0;
+    }
+    .signup h1{
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight:600 ;
+    }
+    .form{
+        width: 48%;
+        padding-top: 30px;
+        margin-bottom: 5%;
+        font-size: 10px;
+        
+    }
+    .icon{
+        width: 5%;
+        position: absolute;
+        bottom: 22%;
+        right:28%;
+    }
+    .icon img{
+        width: 100%;
+    }
+    .Load_more{
+        padding-bottom: 80px;
+        padding-top: 10px;
+
+    }
+    .Load_more a {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .footer_left ul li a {
+        font-size: 8px;
+    }
+    footer{
+        padding: 15px 0;
+    }
+    .footer_left{
+        width: 45%;
+        float: left;
+        margin-top: 12px;
+    }
+    .footer_right{
+        width: 50%;
+        margin-top: 12px;
+    }
+    .footer_right ul li{
+        float: left;
+        margin-left: 10px;
+    }
+    .footer_right ul li a{
+        font-size: 8px;
+    }
+    .footer_right ul li a img{
+        width: 100%;
+    }
+}
